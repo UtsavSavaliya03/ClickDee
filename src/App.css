@@ -1,0 +1,11 @@
+.main-title {
+  font-size: 45px;
+  color: rgba(39, 39, 87, 0.952);
+  padding: 25px 50px 10px;
+}
+
+.main-title-description {
+  font-size: 18px;
+  padding-right: 80px;
+  padding-left: 50px;
+}

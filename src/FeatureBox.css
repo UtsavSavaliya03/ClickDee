@@ -1,0 +1,55 @@
+.main-blue-container {
+    cursor: pointer;
+    background-color: rgba(157, 157, 255, 0.125);
+    padding: 40px 30px;
+    transition: 0.3s;
+    height: 380px;
+}
+
+.main-white-container {
+    cursor: pointer;
+    padding: 40px 30px;
+    transition: 0.3s;
+    background-color: white;
+    height: 380px;
+}
+
+.feature-img {
+    width: 80px;
+}
+
+.feature-title {
+    font-weight: 400;
+}
+
+.feature-title-description {
+    font-size: 17px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.main-blue-container:hover .feature-title-description {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.main-blue-container:hover {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    transition: 0.3s;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.main-white-container:hover .feature-title-description {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.main-white-container:hover {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    transition: 0.3s;
+    background-color: rgba(157, 157, 255, 0.125);;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
